@@ -7,7 +7,11 @@ const router = require('./routes')
 
 
 const app = express()
-app.use(cors())
+app.use(cors({
+   origin: ['http://localhost:3000'], // Add your frontend domain here
+   methods: 'GET,POST,PUT,DELETE',
+   credentials: true
+}));
 app.use(express.json())
 app.use(cookieParser())
 
