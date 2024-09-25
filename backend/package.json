@@ -7,6 +7,10 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node index.js",
     "dev": "nodemon index.js"
+<<<<<<< HEAD
+=======
+    
+>>>>>>> 18f44f6577930bbe4a549111f696b585501023bf
   },
   "author": "",
   "license": "ISC",
