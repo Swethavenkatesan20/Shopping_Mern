@@ -4,8 +4,8 @@ import { FaEye } from "react-icons/fa";
 import { FaEyeSlash } from "react-icons/fa";
 import { Link, useNavigate } from 'react-router-dom';
 import imageTobase64 from '../helpers/imageTobase64';
-import SummaryApi from '../common';
 import { toast } from 'react-toastify';
+import SummaryApi from '../common';
 
 const SignUp = () => {
   const [showPassword,setShowPassword] = useState(false)
